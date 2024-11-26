@@ -73,15 +73,4 @@ merge:
 
 
 
-    # - name: Merge pull request
-    #   if: success()
-    #   uses: actions/github-script@v3
-    #   with:
-    #   script: |
-    #     const { context, github } = require('@actions/github');
-    #     const pull_request_number = context.payload.pull_request.number;
-    #     await github.pulls.merge({
-    #     owner: context.repo.owner,
-    #     repo: context.repo.repo,
-    #     pull_number: pull_request_number
-    #     });
+    
